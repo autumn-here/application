@@ -1,0 +1,105 @@
+* {
+  /* outline: 1px solid gray; */
+  box-sizing: border-box;
+  font-family: Noto Sans Traditional Chinese;
+}
+
+/* reset BS 預設 margin 和 padding */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+body {
+  padding: 20px 0;
+  min-width: 375px;
+  background-color: aliceblue;
+}
+main > div {
+  padding: 20px;
+  border-radius: 5%;
+}
+
+main > div:nth-child(even) {
+  background-color: aliceblue;
+}
+
+main > div:nth-child(odd) {
+  background-color: #acd2ec;
+}
+
+h1 {
+  flex-basis: 100%;
+  text-align: center;
+  color: #386d91;
+  font-weight: 700;
+  text-shadow: 1px 1px black;
+}
+
+.navbar_modify {
+  padding: 0;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+header .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar_nav_modify {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding: 15px;
+  flex: 1 1 0;
+  background: aliceblue;
+  color: black;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  background-color: var(--bg-light-green);
+  color: #386d91;
+  font-weight: 600;
+}
+
+main h2,
+h3,
+h4 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 1px 1px white;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+h4:nth-last-child(1) {
+  margin-top: 10px;
+}
+
+.difficulty_title {
+  font-weight: 600;
+}
